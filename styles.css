@@ -1,0 +1,25 @@
+body {
+   background-color:#DCE1DE;
+   font-size: 110%;
+   margin: 5mm;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+  background :#9CC5A1 ;
+  width: 95%;
+  font-size: 80%;
+  padding: 5mm;
+  color: #1F2421;
+}
+
+table{
+   background :#9CC5A1 ;
+   width: 95%;
+   font-size: 80%;
+   padding: 5mm;
+   color: #1F2421;
+}
+
+h1 {
+   color: #216869;
+}

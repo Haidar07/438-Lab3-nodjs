@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+    <h1>List of contacts</h1>
+    <table>
+        <thead>
+            <td>Contact Name</td>
+            <td>Contact Name</td>
+            <td>Contact Name</td>
+            <td>Contact Name</td>
+            <td>Contact Name</td>
+            <td>Contact Name</td>
+        </thead>
+        <tbody id="contacts">
+
+        </tbody>
+    </table>
+    <h2>Edit Contact</h2>
+
+    <div id="editContactModal">
+
+    </div>
+    <div  class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> -->
+
+                <div class="modal-body" id="subform">
+                        <form  method="POST" id="form1">
+                            <div class="form-group" id="contact_name">
+                                <label for="exampleInputPassword1">Contact Name</label>
+                                
+                            </div>
+                
+                            <div class="form-group" id="contact_profession">
+                                <label for="exampleInputPassword1">Contact Profession</label>
+                            
+                            </div>
+                
+                            <div class="form-group" id="contact_tel_number">
+                                <label for="exampleInputPassword1">Contact Tel Num</label>
+                            </div>
+                
+                            <div class="form-group" id="contact_mobile_number">
+                                <label for="exampleInputPassword1">Contact Mobile Num</label>
+                            </div>
+               
+                            <button  type="submit" form="form1" class="btn btn-primary">Submit</button>
+                        </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="contact-list.js"></script>
+    
+<br>
+<a href="index.html">Insert New Contact</a>
+
+</body>
+
+</html>
